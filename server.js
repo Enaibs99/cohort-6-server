@@ -15,7 +15,7 @@ const studentInfo = [
 ];
 
 app.get("/all-data",(req, res) => {
-    res.json(studentInfo[1]);
+    res.json(studentInfo);
 });
 
 // Step 3: Define a route handler for GET requests to /
